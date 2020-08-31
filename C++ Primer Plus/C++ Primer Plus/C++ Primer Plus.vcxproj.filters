@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\第8章">
+      <UniqueIdentifier>{2beda465-2f42-4dc2-8bbf-94b388f13b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第8章\inline">
+      <UniqueIdentifier>{3f1cbff8-6b51-4b01-8ae3-18f6ae5b2f3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="inline.cpp">
+      <Filter>源文件\第8章\inline</Filter>
+    </ClCompile>
+    <ClCompile Include="第八章\firstref.cpp">
+      <Filter>源文件\第8章</Filter>
+    </ClCompile>
+    <ClCompile Include="第八章\swaps.cpp">
+      <Filter>源文件\第8章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
