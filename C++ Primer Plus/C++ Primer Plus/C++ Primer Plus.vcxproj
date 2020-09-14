@@ -20,7 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="inline.cpp" />
+    <ClCompile Include="第九章\external.cpp" />
+    <ClCompile Include="第九章\support.cpp" />
     <ClCompile Include="第八章\firstref.cpp" />
+    <ClCompile Include="第八章\strquote.cpp" />
     <ClCompile Include="第八章\strtref.cpp" />
     <ClCompile Include="第八章\swaps.cpp" />
   </ItemGroup>

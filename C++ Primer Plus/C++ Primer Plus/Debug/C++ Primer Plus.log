@@ -1,2 +1,8 @@
-﻿  strtref.cpp
-  C++ Primer Plus.vcxproj -> D:\Project\C Pirmer\C-Primer-Plus\C++ Primer Plus\Debug\C++ Primer Plus.exe
+﻿  external.cpp
+  support.cpp
+  strquote.cpp
+  strtref.cpp
+  swaps.cpp
+  正在生成代码...
+d:\project\c++\c++primer plus\c-primer-plus\c++ primer plus\c++ primer plus\第八章\strquote.cpp(55): warning C4172: 返回局部变量或临时变量的地址: temp
+  C++ Primer Plus.vcxproj -> D:\Project\C++\C++Primer Plus\C-Primer-Plus\C++ Primer Plus\Debug\C++ Primer Plus.exe

@@ -19,6 +19,9 @@
     <Filter Include="源文件\第8章\inline">
       <UniqueIdentifier>{3f1cbff8-6b51-4b01-8ae3-18f6ae5b2f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第九章">
+      <UniqueIdentifier>{590e8fde-050b-4761-8331-28c5afc9f0ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="inline.cpp">
@@ -32,6 +35,15 @@
     </ClCompile>
     <ClCompile Include="第八章\strtref.cpp">
       <Filter>源文件\第8章</Filter>
+    </ClCompile>
+    <ClCompile Include="第八章\strquote.cpp">
+      <Filter>源文件\第8章</Filter>
+    </ClCompile>
+    <ClCompile Include="第九章\external.cpp">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="第九章\support.cpp">
+      <Filter>源文件\第九章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
