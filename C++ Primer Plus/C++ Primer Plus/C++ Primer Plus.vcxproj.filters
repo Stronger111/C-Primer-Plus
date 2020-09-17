@@ -22,6 +22,18 @@
     <Filter Include="源文件\第九章">
       <UniqueIdentifier>{590e8fde-050b-4761-8331-28c5afc9f0ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第十章">
+      <UniqueIdentifier>{ad917200-a9ac-45b0-a049-19946776c29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\第10章">
+      <UniqueIdentifier>{8b13fc18-39ed-4a28-a913-74939fa65e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章">
+      <UniqueIdentifier>{cd2ce212-f131-4330-bbbb-8a0a063a0863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\第11章">
+      <UniqueIdentifier>{ac4feeaa-836c-4577-9472-cec6fd7fdac5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="inline.cpp">
@@ -45,5 +57,16 @@
     <ClCompile Include="第九章\support.cpp">
       <Filter>源文件\第九章</Filter>
     </ClCompile>
+    <ClCompile Include="第10章\stack.cpp">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="第10章\stacker.cpp">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="第10章\stack.h">
+      <Filter>头文件\第10章</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

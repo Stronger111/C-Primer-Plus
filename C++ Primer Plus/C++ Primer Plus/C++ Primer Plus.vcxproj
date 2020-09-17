@@ -20,12 +20,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="inline.cpp" />
+    <ClCompile Include="第10章\stack.cpp" />
+    <ClCompile Include="第10章\stacker.cpp" />
     <ClCompile Include="第九章\external.cpp" />
     <ClCompile Include="第九章\support.cpp" />
     <ClCompile Include="第八章\firstref.cpp" />
     <ClCompile Include="第八章\strquote.cpp" />
     <ClCompile Include="第八章\strtref.cpp" />
     <ClCompile Include="第八章\swaps.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="第10章\stack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{789F9F1E-F8C3-461B-9C58-099B03A8AE87}</ProjectGuid>
@@ -36,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
