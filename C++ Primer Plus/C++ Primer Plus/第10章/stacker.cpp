@@ -9,11 +9,11 @@ int mainD()
 	char ch;
 	unsigned long po;
 	cout << "Please enter A to add a purchase order.\n" << "P to process a PO,pr Q to quit.\n";
-	while (cin>>ch && toupper(ch)!='Q') //输入判断 不为Q 
+	while (cin>>ch && toupper(ch)!='Q')  
 	{
 		while (cin.get() != '\n')
 			continue;
-		if (!isalpha(ch))  //用来判断一个字符是否为字母，如果是字符则返回非零，否则返回零 
+		if (!isalpha(ch)) 
 		{
 			cout << '\a';
 			continue;

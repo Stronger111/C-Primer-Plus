@@ -1,6 +1,2 @@
-﻿  firstref.cpp
-  stacker.cpp
-  stack.cpp
-  正在生成代码...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
-D:\Project\C++\C++Primer Plus\C-Primer-Plus\C++ Primer Plus\Debug\C++ Primer Plus.exe : fatal error LNK1120: 1 个无法解析的外部命令
+﻿  mytime0.cpp
+  C++ Primer Plus.vcxproj -> D:\Project\C++\C++Primer Plus\C-Primer-Plus\C++ Primer Plus\Debug\C++ Primer Plus.exe

@@ -2,14 +2,14 @@
 #ifndef STACK_H_
 #define STACK_H_
 
-typedef unsigned long Item;  //Item为long类型
+typedef unsigned long Item;  //Item为long锟斤拷锟斤拷
 
 class Stack
 {
 public:
 	Stack();
 	bool isempety() const;
-	bool isfull() const;//const 表示不会修改对象
+	bool isfull() const;//const 锟斤拷示锟斤拷锟斤拷锟睫改讹拷锟斤拷
 	bool push(const Item & item);
 	bool pop(Item & item);
 	~Stack();

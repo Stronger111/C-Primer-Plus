@@ -13,15 +13,13 @@ string version1(const string & s1,const string & s2);
 const string & version2(string & s1,const string & s2);
 const string & version3(string & s1,const string & s2);
 
-//泛型模版,通用编程,参数化类型
-//template <class T> 模版
 template <typename T>
 void Swap(T &a,T &b);
 
-//new template
+
 template <typename T>
 void Swap(T *a,T *b,int n);
-//具体化模版
+
 template <> 
 void Swap<job>(job &j1,job &j2);
 
@@ -48,12 +46,12 @@ const string & version2(string & s1, const string & s2)
 	return s1;
 }
 
-const string & version3(string & s1, const string & s2)
-{
-	string temp;
-	temp = s2 + s1 + s2;
-	return temp;  //造成崩溃,返回一个临时变量
-}
+//const string & version3(string & s1, const string & s2)
+//{
+//	string temp;
+//	temp = s2 + s1 + s2;
+//	return temp; 
+//}
 
 template <typename T>
 void Swap(T &a, T &b)
@@ -76,7 +74,7 @@ void Swap(T a[], T b[], int n)
 	}
 }
 
-template <> //具体化模版
+template <> 
 void Swap<job>(job &j1, job &j2)
 {
 	double t1;

@@ -63,10 +63,16 @@
     <ClCompile Include="第10章\stacker.cpp">
       <Filter>源文件\第十章</Filter>
     </ClCompile>
+    <ClCompile Include="第11章\mytime0.cpp">
+      <Filter>源文件\第11章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="第10章\stack.h">
       <Filter>头文件\第10章</Filter>
+    </ClInclude>
+    <ClInclude Include="第11章\mytime00.h">
+      <Filter>头文件\第11章</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -17,7 +17,7 @@ bool Stack::isfull() const
 
 bool Stack::push(const Item & item)
 {
-	if (top<MAX) //ÅÐ¶ÏÊÇ·ñÒÑ¾­´æÂú
+	if (top<MAX) 
 	{
 		items[top++] = item;
 		return true;
