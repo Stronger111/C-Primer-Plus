@@ -1,2 +1,5 @@
-﻿  mytime0.cpp
+﻿  stone.cpp
+  stonewt.cpp
+D:\Project\C++\C++Primer Plus\C-Primer-Plus\C++ Primer Plus\C++ Primer Plus\第11章\stonewt.cpp(23,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
   C++ Primer Plus.vcxproj -> D:\Project\C++\C++Primer Plus\C-Primer-Plus\C++ Primer Plus\Debug\C++ Primer Plus.exe

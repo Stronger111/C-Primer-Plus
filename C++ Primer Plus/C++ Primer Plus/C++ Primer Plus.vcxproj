@@ -23,6 +23,10 @@
     <ClCompile Include="第10章\stack.cpp" />
     <ClCompile Include="第10章\stacker.cpp" />
     <ClCompile Include="第11章\mytime0.cpp" />
+    <ClCompile Include="第11章\randwalk.cpp" />
+    <ClCompile Include="第11章\stone.cpp" />
+    <ClCompile Include="第11章\stonewt.cpp" />
+    <ClCompile Include="第11章\vector.cpp" />
     <ClCompile Include="第九章\external.cpp" />
     <ClCompile Include="第九章\support.cpp" />
     <ClCompile Include="第八章\firstref.cpp" />
@@ -33,6 +37,8 @@
   <ItemGroup>
     <ClInclude Include="第10章\stack.h" />
     <ClInclude Include="第11章\mytime00.h" />
+    <ClInclude Include="第11章\stonewt.h" />
+    <ClInclude Include="第11章\vector.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{789F9F1E-F8C3-461B-9C58-099B03A8AE87}</ProjectGuid>

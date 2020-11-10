@@ -66,12 +66,30 @@
     <ClCompile Include="第11章\mytime0.cpp">
       <Filter>源文件\第11章</Filter>
     </ClCompile>
+    <ClCompile Include="第11章\vector.cpp">
+      <Filter>源文件\第11章</Filter>
+    </ClCompile>
+    <ClCompile Include="第11章\randwalk.cpp">
+      <Filter>源文件\第11章</Filter>
+    </ClCompile>
+    <ClCompile Include="第11章\stonewt.cpp">
+      <Filter>源文件\第11章</Filter>
+    </ClCompile>
+    <ClCompile Include="第11章\stone.cpp">
+      <Filter>源文件\第11章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="第10章\stack.h">
       <Filter>头文件\第10章</Filter>
     </ClInclude>
     <ClInclude Include="第11章\mytime00.h">
+      <Filter>头文件\第11章</Filter>
+    </ClInclude>
+    <ClInclude Include="第11章\vector.h">
+      <Filter>头文件\第11章</Filter>
+    </ClInclude>
+    <ClInclude Include="第11章\stonewt.h">
       <Filter>头文件\第11章</Filter>
     </ClInclude>
   </ItemGroup>
